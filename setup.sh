@@ -6,7 +6,7 @@
 ~/dotfiles/setup/ubuntu/install_apt_packages.sh
 
 # Snap
-~/dotfiles/setup/ubuntu/install_snap_packages.sh
+# ~/dotfiles/setup/ubuntu/install_snap_packages.sh
 
 # Zsh
 ~/dotfiles/setup/common/install_zinit.sh

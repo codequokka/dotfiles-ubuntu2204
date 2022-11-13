@@ -10,9 +10,9 @@ packages=(
   # Terminal
   "tmux"
   # Ssh
-  # "openssh-server"
+  "openssh-server"
   # Utility
-  "curl"
+  # "curl"
   # "build-essential"
   # Python3
   "python3"
@@ -21,8 +21,8 @@ packages=(
   # "virtualbox"
   # "vagrant"
   # Etc
-  "libffi-dev"
-  "libyaml-dev"
+  # "libffi-dev"
+  # "libyaml-dev"
 )
 
 for package in "${packages[@]}" ; do
