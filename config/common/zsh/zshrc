@@ -85,9 +85,7 @@ globalias() {
   fi
   zle self-insert
 }
-
 zle -N globalias
-
 bindkey " " globalias
 
 
@@ -170,15 +168,15 @@ bindkey '^s^d' fzf-select-dirs
 
 function rgv() {
   if [ $# -eq 0 ]; then
-    echo 'Need a string to search for!'
-    echo 'Usage: rgv <string>'
+    echo 'Usage: rgv <search_string> <search_dir>'
     return 1
   fi
 
-  search_words=$@
+  search_string=$1
+  search_dir=${2:-.}
 
   search_result=$(
-    rg --smart-case --vimgrep $search_words | \
+    rg --smart-case --vimgrep $search_string $search_dir | \
     fzf --delimiter=':' \
       --preview='bat --color=always {1} -H {2} -r `expr {2} - 1`:`expr {2} + 1`'
   )
@@ -191,7 +189,7 @@ function rgv() {
     return
   fi
 
-  nvim $file_path "+call cursor($line_number, $column_number)" "+set hlsearch | let @/ = \"$search_words\""
+  nvim $file_path "+call cursor($line_number, $column_number)" "+set hlsearch | let @/ = \"$search_string\""
 }
 
 function fdv() {
