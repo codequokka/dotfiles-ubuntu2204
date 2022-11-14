@@ -12,6 +12,7 @@ packages=(
   # Ssh
   "openssh-server"
   # Utility
+  "direnv"
   # "curl"
   # "build-essential"
   # Python3
