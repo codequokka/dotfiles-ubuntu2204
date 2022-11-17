@@ -5,6 +5,8 @@ packages=(
   "chromium"
   # Editor
   "code --classic"
+  # IDE
+  "pycharm-community --classic"
 )
 
 for package in "${packages[@]}" ; do
