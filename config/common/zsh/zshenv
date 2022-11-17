@@ -19,6 +19,7 @@ fpath=(
 )
 
 export EDITOR='nvim'
+export WORDCHARS='*?_.[]~-=&;!#$%^(){}<>'
 
 export FZF_DEFAULT_OPTS='--exact --height 50% --reverse --border --bind=ctrl-k:kill-line'
 

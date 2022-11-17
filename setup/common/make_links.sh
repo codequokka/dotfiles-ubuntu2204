@@ -17,6 +17,9 @@ if [ ! -d ~/.config/nvim ]; then
 fi
 ln -sfn ${config_file_dir}/nvim/init.vim ~/.config/nvim/init.vim
 
+# Idea
+ln -sfn ${config_file_dir}/idea/ideavimrc ~/.ideavimrc
+
 # Sh
 # ln -sfn ${config_file_dir}/sh ~/.sh
 

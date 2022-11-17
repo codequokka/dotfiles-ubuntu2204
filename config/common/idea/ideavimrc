@@ -1,0 +1,12 @@
+set clipboard+=unnamed
+set clipboard+=ideaput
+
+nnoremap \e :e ~/.ideavimrc<CR>
+nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
+
+""" The Leader Key
+let mapleader=" "
+
+""" Terminal
+nnoremap <c-\> :action ActivateTerminalToolWindow<CR>
+nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
