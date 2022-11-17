@@ -20,6 +20,6 @@ fpath=(
 
 export EDITOR='nvim'
 
-export FZF_DEFAULT_OPTS='--height 50% --reverse --border'
+export FZF_DEFAULT_OPTS='--exact --height 50% --reverse --border --bind=ctrl-k:kill-line'
 
 export PIPENV_VENV_IN_PROJECT=1
