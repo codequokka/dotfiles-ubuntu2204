@@ -7,6 +7,8 @@ packages=(
   "code --classic"
   # IDE
   "pycharm-community --classic"
+  # Video Player
+  "vlc"
 )
 
 for package in "${packages[@]}" ; do

@@ -61,6 +61,7 @@ bindkey -e
 # Alias
 # -----------------------------------------------------------------------------
 alias g='git'
+alias cdgr='cd-gitroot'
 
 alias ls='lsd'
 # alias ls='exa'

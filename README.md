@@ -8,6 +8,8 @@ $ git config --global user.email 'codequokka@gmail.com'
 $ git config -l --global | grep user
 user.name=Nobuchika Tanaka
 user.email=codequokka@gmail.com
+
+$ git config --global url.git@github.com:.insteadOf https://github.com/
 ```
 
 # Ghq

@@ -18,6 +18,7 @@ packages=(
   # Python3
   "python3"
   "python3-pip"
+  "python3.8-venv"
   # Virtualization
   # "virtualbox"
   # "vagrant"

@@ -14,6 +14,9 @@
         "editor.selectionBackground": "#135564",
         "editor.selectionHighlightBackground": "#135564"
     },
+    "workbench.editor.enablePreview": false,
+    // Files
+    "files.insertFinalNewline": true,
     // Terminal
     "terminal.integrated.fontFamily": "'MesloLGS NF'",
     "terminal.integrated.fontSize": 15,
@@ -25,14 +28,33 @@
     "remote.SSH.remotePlatform": {
         "ubuntu-2204": "linux"
     },
+    // Vim
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "q"
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.quickFix"
+                }
+            ]
+        }
+    ],
     // Golang
     "go.lintTool": "golangci-lint",
     "go.lintFlags": [
-        "--config=${workspaceFolder}/.golangci.yaml",
-        "--fast"
+        // "--config=${workspaceFolder}/.golangci.yaml",
+        // "--fast"
     ],
     "gopls": {
         "ui.semanticTokens": true
     },
+    "go.lintOnSave": "workspace",
+    "redhat.telemetry.enabled": true,
     // "go.testOnSave": true
 }
