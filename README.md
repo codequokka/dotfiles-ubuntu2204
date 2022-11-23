@@ -25,3 +25,9 @@ ghq.root=~/work
 ```
 $ chsh -s /usr/bin/zsh
 ```
+
+# Terminal
+```
+$ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator $(which alacritty) 50
+
+```

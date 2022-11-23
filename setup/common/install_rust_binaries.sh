@@ -1,10 +1,12 @@
 #!/bin/bash
 
 binaries=(
+  # Terminal
+  "alacritty"
   # Zsh
   # "sheldon"
   # Shell
-  "zoxide"
+  # "zoxide"
 )
 
 for binary in "${binaries[@]}" ; do

@@ -24,6 +24,6 @@ ln -sfn ${config_file_dir}/idea/ideavimrc ~/.ideavimrc
 # ln -sfn ${config_file_dir}/sh ~/.sh
 
 # Alacritty
-# if [[ "$(uname -r)" != *microsoft* ]]; then
-#   ln -sfn ${config_file_dir}/alacritty ~/.config/alacritty
-# fi
+if [[ "$(uname -r)" != *microsoft* ]]; then
+  ln -sfn ${config_file_dir}/alacritty ~/.config/alacritty
+fi
