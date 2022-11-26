@@ -25,6 +25,7 @@ packages=(
   "libfuse2"
   # Python3
   "python3"
+  "python3-venv"
   "python3-pip"
   "python3.8-venv"
   # Virtualization

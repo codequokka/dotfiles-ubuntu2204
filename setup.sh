@@ -23,6 +23,9 @@
 # Python
 ~/dotfiles/setup/common/install_pip_packages.sh
 
+# Nodejs
+~/dotfiles/setup/ubuntu/install_nodejs.sh
+
 # Contaier
 # ~/dotfiles/setup/ubuntu/install_podman.sh
 
