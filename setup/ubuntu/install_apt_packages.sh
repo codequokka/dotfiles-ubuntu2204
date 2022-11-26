@@ -21,6 +21,8 @@ packages=(
   "libfontconfig1-dev"
   "libxcb-xfixes0-dev"
   "libxkbcommon-dev"
+  "fuse"
+  "libfuse2"
   # Python3
   "python3"
   "python3-pip"

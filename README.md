@@ -29,5 +29,9 @@ $ chsh -s /usr/bin/zsh
 # Terminal
 ```
 $ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator $(which alacritty) 50
+```
 
+# Neovim
+```
+$ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
