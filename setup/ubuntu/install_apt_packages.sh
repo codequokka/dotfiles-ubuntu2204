@@ -13,7 +13,7 @@ packages=(
   "openssh-server"
   # Utility
   "direnv"
-  # "curl"
+  "curl"
   "build-essential"
   "cmake"
   "pkg-config"
