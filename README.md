@@ -34,4 +34,5 @@ $ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emu
 # Neovim
 ```
 $ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+$ ln -s ~/dotfiles/config/common/nvim/nvchad/custom ~/.config/nvim/lua/
 ```
