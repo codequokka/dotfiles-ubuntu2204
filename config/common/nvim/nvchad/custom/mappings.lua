@@ -2,7 +2,12 @@ local M = {}
 
 M.general = {
   n = {
-    [";"] = { ":", "command mode", opts = { nowait = true } },
+    -- Telescope
+    ["<leader>sf"] = { "<cmd> Telescope find_files <CR>", "Telescope find_files" },
+    -- Git
+    ["<leader>gs"] = { "<cmd> Git <CR>", "Git" },
+    ["<leader>gd"] = { "<cmd> Gvdiffsplit <CR>", "Gvdiffsplit" },
+    ["<a-s-b>"] = { "<cmd> NvimTreeToggle <CR>", "NvimTreeToggle" },
   },
 }
 
