@@ -3,6 +3,7 @@ local M = {}
 M.general = {
   n = {
     -- Telescope
+    ["<leader>T"] = { "<cmd> Telescope <CR>", "Telescope" },
     ["<leader>sf"] = { "<cmd> Telescope find_files <CR>", "Telescope find_files" },
     -- Git
     ["<leader>gs"] = { "<cmd> Git <CR>", "Git" },
