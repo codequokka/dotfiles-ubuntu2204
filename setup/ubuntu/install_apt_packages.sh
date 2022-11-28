@@ -28,6 +28,8 @@ packages=(
   "python3-venv"
   "python3-pip"
   "python3.8-venv"
+  # Bash
+  "shellcheck"
   # Virtualization
   # "virtualbox"
   # "vagrant"
