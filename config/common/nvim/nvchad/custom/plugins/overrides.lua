@@ -22,6 +22,11 @@ M.mason = {
     "html-lsp",
     "typescript-language-server",
     "deno",
+
+    -- yaml stuff
+    "yaml-language-server",
+    "yamlfmt",
+    "yamllint",
   },
 }
 
