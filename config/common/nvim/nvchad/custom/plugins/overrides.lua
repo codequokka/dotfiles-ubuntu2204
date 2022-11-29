@@ -27,6 +27,10 @@ M.mason = {
     "yaml-language-server",
     "yamlfmt",
     "yamllint",
+
+    -- python stuff
+    "python-lsp-server",
+    "pyright",
   },
 }
 
