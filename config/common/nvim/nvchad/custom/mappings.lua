@@ -5,11 +5,13 @@ M.general = {
     -- Telescope
     ["<leader>T"] = { "<cmd> Telescope <CR>", "Telescope" },
     ["<leader>sf"] = { "<cmd> Telescope find_files <CR>", "Telescope find_files" },
-    ["<leader>ss"] = { "<cmd> Telescope live_grep <CR>", "Telescope live_grep" },
+    ["<leader>sl"] = { "<cmd> Telescope live_grep <CR>", "Telescope live_grep" },
+    ["<leader>sb"] = { "<cmd> Telescope buffers <CR>", "Telescope buffers" },
     -- Git
     ["<leader>gs"] = { "<cmd> Git <CR>", "Git" },
     ["<leader>gd"] = { "<cmd> Gvdiffsplit <CR>", "Gvdiffsplit" },
-    ["<a-s-b>"] = { "<cmd> NvimTreeToggle <CR>", "NvimTreeToggle" },
+    -- NvimTree
+    ["<leader>tt"] = { "<cmd> NvimTreeToggle <CR>", "NvimTreeToggle" },
   },
 }
 
